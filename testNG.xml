@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Michaelpage Regression Test Suite"> <!-- parallel="tests" thread-count="2"> -->
+
+	<listeners>
+
+		<listener
+			class-name="com.michaelpage.common.Listners.TestsListenerAdapter">
+		</listener>
+		<listener
+			class-name="com.michaelpage.common.Listners.NGTestListner">
+		</listener>
+
+	</listeners>
+
+	<test name="michaelpage D8 Regression Test">
+
+		<classes>
+		
+		<!-- <class name="com.michaelpage.testrunner.EPIC_97_CVUpload_Michaelpagerunner" /> 	
+		<class name="com.michaelpage.testrunner.EPIC_117_GeneralCVSubmit_Michaelpagerunner" /> 	
+		<class name="com.michaelpage.testrunner.EPIC_81_Homepage_Michaelpagerunner" /> 	
+		<class name="com.michaelpage.testrunner.EPIC_98_JobMatchDaxtra_Michaelpagerunner" /> 	
+		<class name="com.michaelpage.testrunner.EPIC_79_JobPostingAndJobDetail_Michaelpagerunner" /> 	
+		<class name="com.michaelpage.testrunner.EPIC_82_JobSearchSolr_Michaelpagerunner" /> 	
+		<class name="com.michaelpage.testrunner.EPIC_93_LinkedInJobApply_Michaelpagerunner" /> 	 -->
+		<class name="com.michaelpage.testrunner.EPIC_104_MyPage_Michaelpagerunner" /> 	
+		<!-- <class name="com.michaelpage.testrunner.EPIC_91_NextGenJobApply_Michaelpagerunner" /> --> 	
+			
+		</classes>
+
+	</test>
+</suite>
