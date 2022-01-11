@@ -10,7 +10,7 @@ public class LogFile {
 	public static void startLog(String testClassName) {
 		APPLICATION_LOGS.info("Test is Starting...");
 		
-		APPLICATION_LOGS.info("Inserting New Logger Message");
+		APPLICATION_LOGS.info("Inserting New Logger Message :):):):):)");
 	}
 
 	// We can use it when ending tests
