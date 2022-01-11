@@ -9,6 +9,8 @@ public class LogFile {
 	// We can use it when starting tests
 	public static void startLog(String testClassName) {
 		APPLICATION_LOGS.info("Test is Starting...");
+		
+		APPLICATION_LOGS.info("Inserting New Logger Message");
 	}
 
 	// We can use it when ending tests
