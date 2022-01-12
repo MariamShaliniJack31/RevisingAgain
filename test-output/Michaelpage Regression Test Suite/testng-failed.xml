@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Michaelpage Regression Test Suite]">
+  <listeners>
+    <listener class-name="com.michaelpage.common.Listners.TestsListenerAdapter"/>
+    <listener class-name="com.michaelpage.common.Listners.NGTestListner"/>
+  </listeners>
+  <test thread-count="5" name="michaelpage D8 Regression Test(failed)">
+    <classes>
+      <class name="com.michaelpage.testrunner.EPIC_104_MyPage_Michaelpagerunner">
+        <methods>
+          <include name="classTearDown"/>
+          <include name="closeBrowser"/>
+          <include name="testSetUp"/>
+          <include name="feature"/>
+          <include name="classSetUp"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.michaelpage.testrunner.EPIC_104_MyPage_Michaelpagerunner -->
+    </classes>
+  </test> <!-- michaelpage D8 Regression Test(failed) -->
+</suite> <!-- Failed suite [Michaelpage Regression Test Suite] -->
