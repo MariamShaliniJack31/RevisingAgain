@@ -28,7 +28,7 @@ public class BrowserCallingTC extends TestBase {
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 
 		String os = System.getProperty("os.name").toLowerCase();
-		System.out.println("OS = :):):)   " + os );
+		System.out.println("OS = :):):)   In Master" + os );
 
 		if ("firefox".equalsIgnoreCase(Dto.getWebDriverObj())) {
 
@@ -56,7 +56,7 @@ public class BrowserCallingTC extends TestBase {
 			if (Dto.getbrowserStatusvalueType().equalsIgnoreCase("Headless")) {
 				options.setHeadless(true);
 				driver = new FirefoxDriver(options);
-				System.out.println("Running in Firefox Headless Browser");
+				System.out.println("Running in Firefox Headless Browser HEHEHE");
 				LogFile.APPLICATION_LOGS.info("Running in Firefox Headless Browser");
 				Reporter.log("Running in Firefox Headless Browser");
 
