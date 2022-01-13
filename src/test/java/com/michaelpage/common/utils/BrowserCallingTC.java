@@ -28,7 +28,7 @@ public class BrowserCallingTC extends TestBase {
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 
 		String os = System.getProperty("os.name").toLowerCase();
-		System.out.println("OS = :):):)   In Master" + os );
+		System.out.println("OS = :):) Trying to create Barnch MAN-1234" + os );
 
 		if ("firefox".equalsIgnoreCase(Dto.getWebDriverObj())) {
 
